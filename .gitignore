@@ -26,3 +26,9 @@ yarn-error.log*
 node_modules
 
 /Config/
+
+build/
+.idea/
+.firebase/
+*.log
+*.json
