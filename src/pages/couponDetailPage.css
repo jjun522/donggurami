@@ -1,0 +1,103 @@
+.coupon-detail-page {
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    align-items: flex-start; /* 왼쪽 정렬 */
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.logo-img {
+    width: 30px;
+    margin-bottom: 20px; /* 로고와 텍스트 간격 조정 */
+}
+
+.header-title {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 20px;
+    color: #981B00;
+    margin: 0;
+}
+
+.description {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-top: 8px;
+}
+
+/* 버튼 컨테이너 */
+.coupon-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 5px; /* 버튼과 구독 기간 간격 줄이기 */
+}
+
+.coupon-use-button {
+    width: 322px;
+    height: 193px;
+    background: #FF603E;
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coupon-use-button .sub-text {
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* 구독 기간 */
+.subscription-period-container {
+    width: 322px;
+    height: 66px;
+    border: 1px solid #FF603E;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px; /* 하단 간격 줄이기 */
+}
+
+.period-label {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FF603E;
+}
+
+.period-date {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-top: -5px; /* 날짜와 레이블 간격 줄이기 */
+}
